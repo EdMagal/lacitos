@@ -1,0 +1,2 @@
+class Laco < ApplicationRecord
+end
