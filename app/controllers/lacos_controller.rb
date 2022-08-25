@@ -1,0 +1,2 @@
+class LacosController < ApplicationController
+end
