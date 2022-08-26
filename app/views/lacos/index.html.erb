@@ -1,1 +1,12 @@
 <h1>Bem vindos à página de lacinhos.</h1>
+
+<!-- # Lista os lacinhos à venda -->
+<% @lacos.each do |laco| %>
+  <div class="laco">
+    <h2><%= laco.name %></h2>
+    <p><%= laco.description %></p>
+    <p><%= laco.price %></p>
+    <p><%= laco.quantity %></p>
+    <%= cl_image_tag laco.photo.key, height: 200, width: 200, crop: :fill %>
+  </div>
+<% end %>
