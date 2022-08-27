@@ -24,6 +24,7 @@ gem 'turbolinks', '~> 5'
 # gem 'bcrypt', '~> 3.1.7'
 gem "dotenv-rails", groups: [:development, :test]
 gem "cloudinary"
+gem "net-smtp"
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
